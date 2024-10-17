@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apolo - Olympedia</title>
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body>
+    <header class="d-flex">
+        <div>
+            <img src="../assets/img/mais.png" class="mais">
+        </div>
+
+        <div class="d-flex">
+            <a href="../index.html"><img src="../assets/img/logo_Olympedia.png" class="logo"></a>
+            <div class="titulo">
+                <h1>Olympedia</h1>
+                <p>de Hesíodo à Homero</p>
+            </div>
+        </div>
+        <div class="fim d-flex">
+            <p>criar conta</p>
+            <div class="divisao"></div>
+            <p>entrar</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="imagem_fundo imagem_fundo_apolo centraliza" id="img_fundo">
+            <input class="pesquisa"  id="pesquisa" type="text"></input>
+            <p id="titulo">Faça sua Pesquisa</p>
+
+            <script src="../animacao.js"></script>
+            <script>
+                // Chamando a animação com os idiomas desejados
+                animarTitulo("titulo", [
+                    { lingua: "Απόλλων", duracao: 150 }, //grego
+                    { lingua: "Apollo", duracao: 150 }, //latim
+                    { lingua: "Apóllon", duracao: 150 }, //pronuncia em grego
+                    {lingua: "Febo", duracao: 150}, //romano
+                    { lingua: "Apolo", duracao: 150 } 
+                ], 2); // Número de repetições antes de fixar
+            </script>
+
+            <script src="../pesquisa.js"></script>
+        </section>
+    </main>
+</body>
+</html>

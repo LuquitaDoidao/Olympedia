@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* colinha */
+
+.d-flex{
+    display: flex;
+}
+
+.centraliza {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.espaço{
+    height: 200px;
+}
+
+/* cabeçalho */
+
+.mais{
+    height: 40px;
+    width: 40px;
+
+    margin-top: 15px;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+.titulo{
+    margin-top: 9px;
+}
+
+.divisao {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 1px;
+    background-color: #835d3d4f;
+}
+
+.fim{
+    margin-left: 1000px;
+}
+
+.fim p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+
+/* pesquisa */
+
+.imagem_fundo{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    width: 100%;
+    height: 400px;
+}
+
+/* Imagens de Fundo */
+
+.imagem_inicial{
+    background-image: url(../img/img_fundo/imagem_inicio.png);
+}
+
+.imagem_fundo_zeus{
+    background-image: url(../img/img_fundo/imagem_fundo_zeus.png);
+}
+
+.imagem_fundo_poseidon{
+    background-image: url(../img/img_fundo/imagem_fundo_poseidon.png);
+}
+
+.imagem_fundo_hera{
+    background-image: url(../img/img_fundo/imagem_fundo_hera.png);
+}
+.imagem_fundo_hestia{
+    background-image: url(../img/img_fundo/imagem_fundo_hestia.png);
+}
+
+.imagem_fundo_hades{
+    background-image: url(../img/img_fundo/imagem_fundo_hades.png);
+}
+
+.imagem_fundo_demeter{
+    background-image: url(../img/img_fundo/imagem_fundo_demeter.png);
+}
+
+.imagem_fundo_artemis{
+    background-image: url(../img/img_fundo/imagem_fundo_artemis.png);
+}
+
+.imagem_fundo_apolo{
+    background-image: url(../img/img_fundo/imagem_fundo_apolo.png);
+}
+
+.imagem_fundo_hermes{
+    background-image: url(../img/img_fundo/imagem_fundo_hermes.png);
+}
+
+.imagem_fundo_ares{
+    background-image: url(../img/img_fundo/imagem_fundo_ares.png);
+}
+
+.imagem_fundo_afrodite{
+    background-image: url(../img/img_fundo/imagem_fundo_afrodite.png);
+}
+
+.imagem_fundo_hefesto{
+    background-image: url(../img/img_fundo/imagem_fundo_hefesto.png);
+}
+
+.imagem_fundo_dionisio{
+    background-image: url(../img/img_fundo/imagem_fundo_dionisio.png);
+}
+
+.imagem_fundo_atena{
+    background-image: url(../img/img_fundo/imagem_fundo_atena.png);
+}
+
+.pesquisa{
+    background-color: rgba(47, 47, 47, 0.678);
+    height: 45px;
+    width: 750px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+.imagem_fundo p{
+    color:white;
+    font-size: 120px;
+    margin-top: 30px;
+}
+
+.anuncio1{
+    margin-top: 30px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário das Cores</title>
+    <style>
+        .grupoPerguntas {
+            display: none; 
+        }
+        .ativo {
+            display: block; 
+        }
+        #botaoProximo, #botaoEnviar, #botaoVoltar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questionário: Qual cor representa você?</h1>
+    <form id="perguntasFormulario">
+
+        <!-- Grupo 1 de perguntas -->
+        <div class="grupoPerguntas ativo" id="grupo1">
+            <div class="pergunta">
+                <label for="pergunta1">1. De 1 a 6, o quanto você gosta de organização?</label><br>
+                <input type="number" id="pergunta1" name="pergunta1" min="1" max="6"><br><br>
+            </div>
+            <div class="pergunta">
+                <label for="pergunta2">2. De 1 a 6, como você reage ao caos?</label><br>
+                <input type="number" id="pergunta2" name="pergunta2" min="1" max="6"><br><br>
+            </div>
+        </div>
+
+        <!-- Grupo 2 de perguntas -->
+        <div class="grupoPerguntas" id="grupo2">
+            <div class="pergunta">
+                <label for="pergunta3">3. De 1 a 6, o quanto você gosta de socializar?</label><br>
+                <input type="number" id="pergunta3" name="pergunta3" min="1" max="6"><br><br>
+            </div>
+            <div class="pergunta">
+                <label for="pergunta4">4. De 1 a 6, o quanto você gosta de novidades?</label><br>
+                <input type="number" id="pergunta4" name="pergunta4" min="1" max="6"><br><br>
+            </div>
+        </div>
+
+        <!-- Grupo 3 de perguntas -->
+        <div class="grupoPerguntas" id="grupo3">
+            <div class="pergunta">
+                <label for="pergunta5">5. De 1 a 6, o quanto você gosta de estabilidade?</label><br>
+                <input type="number" id="pergunta5" name="pergunta5" min="1" max="6"><br><br>
+            </div>
+            <div class="pergunta">
+                <label for="pergunta6">6. De 1 a 6, o quanto você sai de casa?</label><br>
+                <input type="number" id="pergunta6" name="pergunta6" min="1" max="6"><br><br>
+            </div>
+        </div>
+
+        <!-- Grupo 4 de perguntas -->
+        <div class="grupoPerguntas" id="grupo4">
+            <div class="pergunta">
+                <label for="pergunta7">7. De 1 a 6, o quanto você conversa com seus amigos?</label><br>
+                <input type="number" id="pergunta7" name="pergunta7" min="1" max="6"><br><br>
+            </div>
+        </div>
+
+        <button type="button" id="botaoVoltar" onclick="voltarGrupo()">Voltar</button>
+        <button type="button" id="botaoProximo" onclick="proximoGrupo()">Próximo</button>
+        <button type="submit" id="botaoEnviar">Enviar</button>
+    </form>
+
+    <p id="resposta"></p>
+    <pre id="pontuacoes"></pre>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="comandos.js"></script>
+</body>
+</html>
