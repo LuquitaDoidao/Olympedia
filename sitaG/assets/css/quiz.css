@@ -31,6 +31,7 @@
     width: 100%;
     height: 800px;
     position: relative;
+    background-attachment: fixed;
 }
 
 .cabecalho{
@@ -41,7 +42,34 @@
 h1{
     font-size: 40px;
     color: white;
-    margin-left: 240px;
+    margin-left: 140px;
+}
+
+.aviso{
+    margin-left: 180px;
+
+    background-color: #434343;
+    box-shadow: #000000 20px 20px 50px;
+    border-radius:30px;
+    height: 350px;
+    width: 1150px;
+}
+
+.aviso p{
+    color: white;
+}
+
+.avisao{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.textin{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
 }
 
 .quadro{
@@ -53,9 +81,9 @@ h1{
     margin-left: 180px;
     
     background-color: white;
-    height: 500px;
+    height: 590px;
     width: 650px;
-    box-shadow: #434343 20px 20px 50px;
+    box-shadow: #000000 20px 20px 50px;
     border-radius:30px 0px 0px 30px;
 }
 
@@ -65,9 +93,9 @@ h1{
     text-align: justify;
     
     margin-top: 20px;
-    height: 500px;
+    height: 590px;
     width: 500px;
-    box-shadow: #434343 20px 20px 50px;
+    box-shadow: #000000 20px 20px 50px;
     border-radius:0px 30px 30px 0px;
 }
 
@@ -80,6 +108,9 @@ h1{
 .pergunta{
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 10px;
+
+    font-size: 20px;
 }
 
 .botaoE{
@@ -115,6 +146,32 @@ h1{
 .opcoes{
     background-color: rgba(0, 0, 0, 0.552);
     margin-top: 30px;
+}
+
+.opcoes p{
+    color:white;
+    font-size: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listinha{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.listinha p{
+    color: white;
+    font-size: 15px;
+}
+
+.espaco{
+    height: 30px;
+}
+
+.espaco2{
+    height: 200px;
 }
 
 
