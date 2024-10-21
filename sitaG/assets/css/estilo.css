@@ -129,6 +129,42 @@
     background-image: url(../img/img_fundo/imagem_fundo_atena.png);
 }
 
+.imagem_fundo_iris{
+    background-image: url(../img/img_fundo/imagem_fundo_iris.png);
+}
+
+.imagem_fundo_hebe{
+    background-image: url(../img/img_fundo/imagem_fundo_hebe.png);
+}
+
+.imagem_fundo_tique{
+    background-image: url(../img/img_fundo/imagem_fundo_tique.png);
+}
+
+.imagem_fundo_eros{
+    background-image: url(../img/img_fundo/imagem_fundo_eros.png);
+}
+
+.imagem_fundo_persefone{
+    background-image: url(../img/img_fundo/imagem_fundo_persefone.png);
+}
+
+.imagem_fundo_hipinos{
+    background-image: url(../img/img_fundo/imagem_fundo_hipinos.png);
+}
+
+.imagem_fundo_hecate{
+    background-image: url(../img/img_fundo/imagem_fundo_hecate.png);
+}
+
+.imagem_fundo_nemesis{
+    background-image: url(../img/img_fundo/imagem_fundo_nemeris.png);
+}
+
+.imagem_fundo_eolo{
+    background-image: url(../img/img_fundo/imagem_fundo_eolo.png);
+}
+
 .pesquisa{
     background-color: rgba(47, 47, 47, 0.678);
     height: 45px;
@@ -149,4 +185,19 @@
 
 .anuncio1{
     margin-top: 30px;
+}
+
+.sumario{
+    background-color: rgb(212, 212, 212);
+    width: 230px;
+    height: 800px;
+    position: fixed;
+}
+
+.ocupado{
+    width: 250px;
+}
+
+.artigo{
+
 }
