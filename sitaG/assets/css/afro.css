@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-evilin{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fundo{
+    background-color: #ff66c4;
+}
+
+.quadro{
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    box-shadow: #cd4699 10px 10px 10px 10px;
+    width: 400px;
+    height: 500px;
+}
