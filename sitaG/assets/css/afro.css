@@ -14,6 +14,11 @@
     justify-content: space-evenly;
 }
 
+.centraliza{
+    display: flex;
+    justify-content: center;
+}
+
 .fundo{
     background-color: #ff66c4;
 }
@@ -24,4 +29,21 @@
     box-shadow: #cd4699 10px 10px 10px 10px;
     width: 400px;
     height: 500px;
+}
+
+.foto-escolhida{
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.quadro p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
 }
