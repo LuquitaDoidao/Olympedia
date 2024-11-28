@@ -38,33 +38,42 @@ function calculateCompatibility() {
     document.getElementById("result").innerText = `${normalizedCompatibility}`;
   }
 
-  
 
-  const input = document.getElementById('name2');
-  const imagem = document.getElementById('imagem-principal');
-  
-  const imagensDisponiveis = [
-      'assets/img/estatua-homem1.png',
-      'assets/img/estatua-homem2.png',
-      'assets/img/estatua-homem3.png',
-      'assets/img/estatua-homem4.png',
-      'assets/img/estatua-mulher1.png',
-      'assets/img/estatua-mulher2.png',
-      'assets/img/estatua-mulher3.png',
-      'assets/img/estatua-mulher4.png'
-  ];
-  
-  input.addEventListener('input', () => {
-      const valor = input.value.trim();
-  
-      if (valor.length > 0) {
-          // Escolhe uma imagem aleatória da lista
-          const novaImagem = imagensDisponiveis[Math.floor(Math.random() * imagensDisponiveis.length)];
-          imagem.src = novaImagem;
-      } else {
-          // Volta para a imagem padrão se o campo estiver vazio
-          imagem.src = 'assets/img/estatua-indefinida.png';
-      }
-  });
-  
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('name2');
+    const imagem = document.getElementById('imagem-principal');
+
+    // Lista de imagens disponíveis
+    const imagensDisponiveis = [
+        'assets/img/estatua-homem1.png',
+        'assets/img/estatua-homem2.png',
+        'assets/img/estatua-homem3.png',
+        'assets/img/estatua-homem4.png',
+        'assets/img/estatua-mulher1.png',
+        'assets/img/estatua-mulher2.png',
+        'assets/img/estatua-mulher3.png',
+        'assets/img/estatua-mulher4.png'
+    ];
+
+    let timer; // Variável para armazenar o temporizador
+
+    input.addEventListener('input', () => {
+        clearTimeout(timer); // Reseta o temporizador sempre que o usuário digita
+        timer = setTimeout(() => {
+            const valor = input.value.trim();
+
+            if (valor.length > 0) {
+                // Escolhe uma imagem aleatória da lista
+                const novaImagem = imagensDisponiveis[Math.floor(Math.random() * imagensDisponiveis.length)];
+                imagem.src = novaImagem;
+            } else {
+                // Volta para a imagem padrão se o campo estiver vazio
+                imagem.src = 'assets/img/estatua-indefinida.png';
+            }
+        }, 500); // Espera 500ms após o último caractere digitado
+    });
+});
+
+
   
