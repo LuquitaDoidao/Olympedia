@@ -25,6 +25,11 @@
     position: relative;
 }
 
+.altura{
+    height: 150px;
+}
+
+
 /* acabou acesso rápido */
 
 /* Fontes */
@@ -83,37 +88,157 @@
 
 .fundo-liso-rosa p{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: #000000;
 
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* acabou explicação do site */
 
 /* Insira os nomes */
 
+.fundo-liso-cinza{
+    background-color: #606060;
+}
+
 .quadro-listrado{
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 400px;
+    height: 310px;
+    z-index: 1;
 
+    left: 60px;
+    right: 200px;
 }
 
 .quadr-liso{
     background-color: #ff48b9;
-    height: 400px;
-    width: 310px;
+    height: 310px;
+    width: 260px;
+    z-index: 2;
+
+    top: 40px;
+    right: 360px;
 }
 
 .quadro-pessoa{
-    height: 400px;
+    height: 270px;
+    z-index: 3;
+
+    top: 40px;
+    right: 150px;
 }
 
+
+.conjunto-um{
+    margin-left: 120px;
+}
+
+.input-um{
+    margin-left: 190px;
+    margin-top: 85px;
+}
+
+.input-um input{
+    height: 40px;
+    width: 290px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    border-radius: 16px;
+    border-color: #4e4e4e;
+}
+
+.conjunto-dois{
+    margin-left: -120px;
+}
+
+.rola{
+    background-color: #4e4e4e;
+    height: 25px;
+    width: 140px;
+
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.genero{
+    background-color: #ff48b9;
+    height: 25px;
+    width: 80px;
+
+    border-radius: 16px;
+}
+
+.gen{
+    height: 20px;
+}
+
+.ok{
+    background-color: #6bce4e;
+    height: 25px;
+    width: 120px;
+    border-radius: 16px;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.ok p{
+    color:#ffffff
+}
+
+
+
 /* acabou Insira os nomes */
+
+/* resultado */
+
+.fundo-resposta{
+    background-image: url(../img/fundo_casal.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom center;
+    width: 100%;
+    height: 705px;
+}
+
+.casasl{
+    width: 100%;
+    height: 710px;
+    z-index: 1;
+
+    bottom: 5px;
+}
+
+.por{
+    color: #ff94d6;
+    font-size: 200px;
+
+    right: 780px;
+    top: 250px;
+}
+
+.num{
+    color: #ff48b9;
+    font-size: 500px;
+    letter-spacing: -20px;
+
+    right: 700px;
+    bottom: 100px;
+}
+
+.com{
+    color: #ff48b9;
+    font-size: 100px;
+    z-index: 1;
+
+    right: 1500px;
+    top: 450px;
+}
 
 /* resultado */
