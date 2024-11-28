@@ -26,7 +26,7 @@
 }
 
 .altura{
-    height: 150px;
+    height: 100px;
 }
 
 
@@ -106,7 +106,7 @@
     background-color: #606060;
 }
 
-.quadro-listrado{
+.quadro-listrado{                      /* quadros */
     background-repeat: no-repeat;
     background-size: cover; 
     height: 310px;
@@ -116,7 +116,7 @@
     right: 200px;
 }
 
-.quadr-liso{
+.quadro-liso{
     background-color: #ff48b9;
     height: 310px;
     width: 260px;
@@ -132,7 +132,7 @@
 
     top: 40px;
     right: 150px;
-}
+}                               /* acabou quadros */
 
 
 .conjunto-um{
@@ -144,7 +144,7 @@
     margin-top: 85px;
 }
 
-.input-um input{
+input{
     height: 40px;
     width: 290px;
     background-color: #4e4e4e;
@@ -155,6 +155,11 @@
 
 .conjunto-dois{
     margin-left: -120px;
+}
+
+.input-dois{
+    margin-left: -60px;
+    margin-top: 85px;
 }
 
 .rola{
