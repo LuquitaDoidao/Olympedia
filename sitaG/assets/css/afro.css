@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    transition-duration: 0.6s;
 }
 
 /* acesso rápido */
@@ -146,11 +147,13 @@
 
 input{
     height: 40px;
-    width: 290px;
+    width: 240px;
     background-color: #4e4e4e;
     color: #ffffff;
-    border-radius: 16px;
+    border-radius: 16px 0px 0px 16px;
     border-color: #4e4e4e;
+    margin-left: -20px;
+    border: none;
 }
 
 .conjunto-dois{
@@ -162,48 +165,27 @@ input{
     margin-top: 85px;
 }
 
-.rola{
-    background-color: #4e4e4e;
-    height: 25px;
-    width: 140px;
+.botao-sexo{
+    height: 40px;
+    width: 80px;
 
-    border-radius: 16px;
-    margin-top: 20px;
+    border-radius: 0px 16px 16px 0px;
+    border: none;
 }
 
 .genero-fe{
-    background-color: #ff48b9;
-    height: 25px;
-    width: 80px;
-
-    border-radius: 16px;
+    background-color: #ff94d6;
 }
 
-.genero-ma{
-    background-color: #6348ff;
-    height: 25px;
-    width: 80px;
 
-    border-radius: 16px;
+.genero-ma{
+    background-color: #7191f4;
 }
 
 .gen{
-    height: 20px;
+    height: 35px;
 }
 
-.ok{
-    background-color: #6bce4e;
-    height: 25px;
-    width: 120px;
-    border-radius: 16px;
-
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.ok p{
-    color:#ffffff
-}
 
 
 

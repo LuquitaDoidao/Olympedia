@@ -39,49 +39,43 @@
             <div class="altura"></div>
             <div class="d-flex">
 
-                <div>
+                <div class="bloco">
                     <div class="d-flex relativo conjunto-um">
                         <img class="quadro-listrado relativo" src="assets/img/fundinho.png">
-                        <img class="quadro-pessoa relativo" src="assets/img/estatua-indefinida.png">
+                        <img class="imagem-principal quadro-pessoa relativo" src="assets/img/estatua-indefinida.png">
                         <div class="quadro-liso relativo"></div>
                     </div>
-
                     <div class="input-um">
-                        <input type="text" id="name1" placeholder="Digite um nome">
-
                         <div class="d-flex">
-                            <div class="rola">
-                                <button class="genero centraliza">
-                                    <img class="gen" src="assets/img/female.png">
-                                </button>
-                            </div>
+                            <input type="text" id="name1" class="name-input" placeholder="Digite um nome">
+                            <button onclick="alterarGenero(this)" class="botao-genero genero-fe botao-sexo centraliza">
+                                <img class="genero-imagem gen" src="assets/img/female.png">
+                            </button>
                         </div>
-
                     </div>
                 </div>
-    
-                <div>
+                
+                <div class="bloco">
                     <div class="d-flex relativo conjunto-dois">
                         <img class="quadro-listrado relativo" src="assets/img/fundinho.png">
-                        <img id="imagem-principal" class="quadro-pessoa relativo" src="assets/img/estatua-indefinida.png">
+                        <img class="imagem-principal quadro-pessoa relativo" src="assets/img/estatua-indefinida.png">
                         <div class="quadro-liso relativo"></div>
                     </div>
-                
                     <div class="input-dois">
-                        <input type="text" id="name2" placeholder="Digite outro nome">
-                
                         <div class="d-flex">
-                            <div class="rola">
-                                <button onclick="alterarGenero()" id="botao-genero" class="genero-fe centraliza">
-                                    <img id="genero-imagem" class="gen" src="assets/img/female.png">
-                                </button>
-                            </div>
+                            <input type="text" id="name2" class="name-input" placeholder="Digite outro nome">
+                            <button onclick="alterarGenero(this)" class="botao-genero genero-fe botao-sexo centraliza">
+                                <img class="genero-imagem gen" src="assets/img/female.png">
+                            </button>
                         </div>
                     </div>
-                    <script src="afro.js"></script>
                 </div>
+                
 
             </div>
+            
+            <script src="afro.js"></script>
+            
             <button onclick="calculateCompatibility()">Calcular</button>
 
 
