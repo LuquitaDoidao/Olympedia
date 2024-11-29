@@ -112,18 +112,18 @@
     height: 310px;
     z-index: 1;
 
-    left: 60px;
+    left: 56px;
     right: 200px;
 }
 
 .quadro-liso{
     background-color: #ff48b9;
     height: 310px;
-    width: 260px;
+    width: 245px;
     z-index: 2;
 
     top: 40px;
-    right: 360px;
+    right: 356px;
 }
 
 .quadro-pessoa{
@@ -171,8 +171,16 @@ input{
     margin-top: 20px;
 }
 
-.genero{
+.genero-fe{
     background-color: #ff48b9;
+    height: 25px;
+    width: 80px;
+
+    border-radius: 16px;
+}
+
+.genero-ma{
+    background-color: #6348ff;
     height: 25px;
     width: 80px;
 
