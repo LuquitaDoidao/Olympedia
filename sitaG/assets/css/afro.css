@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    transition-duration: 0.6s;
+    transition-duration: 0.3s;
 }
 
 /* acesso rápido */
@@ -29,8 +29,6 @@
 .altura{
     height: 100px;
 }
-
-
 /* acabou acesso rápido */
 
 /* Fontes */
@@ -48,6 +46,18 @@
 }
 
 /* acabou as fontes */
+
+/* Cabeçalho */
+
+header{
+    background-color: #000000;
+}
+
+header h1{
+    color: #ffffff;
+}
+
+/* acabou Cabeçalho */
 
 /* frase impactante do site */
 .imagem-fundo{
@@ -103,6 +113,10 @@
 
 /* Insira os nomes */
 
+.enfeite{
+    height: 600px;
+}
+
 .fundo-liso-cinza{
     background-color: #606060;
 }
@@ -137,11 +151,11 @@
 
 
 .conjunto-um{
-    margin-left: 120px;
+    margin-left: 240px;
 }
 
 .input-um{
-    margin-left: 190px;
+    margin-left: 300px;
     margin-top: 85px;
 }
 
@@ -157,11 +171,11 @@ input{
 }
 
 .conjunto-dois{
-    margin-left: -120px;
+    margin-left: -90px;
 }
 
 .input-dois{
-    margin-left: -60px;
+    margin-left: -30px;
     margin-top: 85px;
 }
 
@@ -177,14 +191,38 @@ input{
     background-color: #ff94d6;
 }
 
+.genero-fe:hover{
+    background-color: #e77dbe;
+}
+
 
 .genero-ma{
     background-color: #7191f4;
 }
 
+.genero-ma:hover{
+    background-color: #5977d2;
+}
+
 .gen{
     height: 35px;
 }
+
+.calcular{
+    background-color: #ff48b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    font-size: 25px;
+    height: 70px;
+    width: 160px;
+    margin-top: 100px;
+}
+
+.calcular:hover{
+    background-color: #d62e96;
+}
+
 
 
 
@@ -194,20 +232,21 @@ input{
 /* resultado */
 
 .fundo-resposta{
-    background-image: url(../img/fundo_casal.png);
+    background-image: url(../img/fundo-casal.png);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: bottom center;
     width: 100%;
-    height: 705px;
+    height: 810px;
 }
 
 .casasl{
     width: 100%;
-    height: 710px;
+    height: 810px;
     z-index: 1;
 
-    bottom: 5px;
+    left: 85px;
+
 }
 
 .por{
