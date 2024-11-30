@@ -36,6 +36,10 @@ function calculateCompatibility() {
   
     // Mostrar o resultado
     document.getElementById("result").innerText = `${normalizedCompatibility}`;
+
+    //mostrar o resultado
+    const fundoResposta = document.getElementById('fundo-resposta');
+    fundoResposta.style.display = 'flex'; // Usamos 'flex' para manter a classe 'd-flex'
   }
   
 
