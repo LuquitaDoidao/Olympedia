@@ -56,6 +56,10 @@ header{
 
 header h1{
     color: #ffffff;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 /*=============== acabou Cabeçalho ===============*/
@@ -251,7 +255,7 @@ input{
     height: 810px;
     z-index: 1;
 
-    left: 85px;
+    left: 40px;
 
 }
 
@@ -291,20 +295,25 @@ footer{
 
 footer > p{
     color:#ff48b9;
-    font-size: 30px;
+    font-size: 55px;
 }
 
 .quadro-comentario{
     background-color: #4e4e4e;
+    border-radius: 15px;
 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 .espaco{
     height: 20px;
+}
+
+.espaco2{
+    height: 50px;
 }
 
 .quadro-comentario img{
@@ -312,7 +321,7 @@ footer > p{
     margin-left: 25px;
 }
 
-.quadro-comentario p{
+.comentario{
     color: #ffffff;
     font-size: 20px;
 
@@ -320,12 +329,21 @@ footer > p{
     margin-right: 30px;
 }
 
-.quadro-comentario .letrao1{
+
+.nome{
     color: #ff48b9;
 
     font-size: 25px;
     margin-left: 20px;
 }
+
+.arroba{
+    color:#aeaeae;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
 
 
 /*=============== acabou Comentarios ===============*/
