@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 /* colinha */
@@ -37,24 +38,6 @@
 
 .titulo{
     margin-top: 9px;
-}
-
-.divisao {
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 30px;
-    width: 1px;
-    background-color: #835d3d4f;
-}
-
-.fim{
-    margin-left: 1000px;
-}
-
-.fim p{
-    margin-top: 25px;
-    font-size: 20px;
 }
 
 
@@ -129,52 +112,24 @@
     background-image: url(../img/img_fundo/imagem_fundo_atena.png);
 }
 
-.imagem_fundo_iris{
-    background-image: url(../img/img_fundo/imagem_fundo_iris.png);
-}
-
-.imagem_fundo_hebe{
-    background-image: url(../img/img_fundo/imagem_fundo_hebe.png);
-}
-
-.imagem_fundo_tique{
-    background-image: url(../img/img_fundo/imagem_fundo_tique.png);
-}
-
-.imagem_fundo_eros{
-    background-image: url(../img/img_fundo/imagem_fundo_eros.png);
-}
-
-.imagem_fundo_persefone{
-    background-image: url(../img/img_fundo/imagem_fundo_persefone.png);
-}
-
-.imagem_fundo_hipinos{
-    background-image: url(../img/img_fundo/imagem_fundo_hipinos.png);
-}
-
-.imagem_fundo_hecate{
-    background-image: url(../img/img_fundo/imagem_fundo_hecate.png);
-}
-
-.imagem_fundo_nemesis{
-    background-image: url(../img/img_fundo/imagem_fundo_nemeris.png);
-}
-
-.imagem_fundo_eolo{
-    background-image: url(../img/img_fundo/imagem_fundo_eolo.png);
-}
-
 .pesquisa{
     background-color: rgba(47, 47, 47, 0.678);
-    height: 45px;
+    border: 3px solid rgb(47, 47, 47);
+    height: 65px;
     width: 750px;
-    border-radius: 30px;
+    border-radius: 25px;
     font-size: 30px;
     color: white;
-    text-align: center;
     margin-top: 90px;
-    
+    outline: none;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.pesquisa:focus{
+    border-radius: 10px;
+    background-color: rgba(41, 40, 40, 0.678);
+    border: 3px solid rgb(37, 37, 37);
 }
 
 .imagem_fundo p{
@@ -185,19 +140,4 @@
 
 .anuncio1{
     margin-top: 30px;
-}
-
-.sumario{
-    background-color: rgb(212, 212, 212);
-    width: 230px;
-    height: 800px;
-    position: fixed;
-}
-
-.ocupado{
-    width: 250px;
-}
-
-.artigo{
-
 }
